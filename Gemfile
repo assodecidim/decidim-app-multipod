@@ -82,6 +82,14 @@ group :development do
   gem "stackprof"
   gem "web-console", "~> 4.2"
   gem "wkhtmltopdf-binary"
+
+  gem "bcrypt_pbkdf", "~> 1.1"
+  gem "capistrano", "~> 3.20"
+  gem "capistrano-nvm", "~> 0.0.7"
+  gem "capistrano-passenger", "~> 0.2.1"
+  gem "capistrano-rails", "~> 1.7"
+  gem "capistrano-rbenv", "~> 2.2"
+  gem "ed25519", "~> 1.4"
 end
 
 group :production do
