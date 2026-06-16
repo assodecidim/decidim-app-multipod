@@ -5,7 +5,7 @@
 require_relative "config/application"
 Rails.application.load_tasks
 
-unless Rails.env.production?
+if Rails.env.development? || Rails.env.testing?
   require "bundler/audit/task"
   Bundler::Audit::Task.new
 end
