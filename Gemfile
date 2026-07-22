@@ -79,6 +79,7 @@ group :development do
   gem "listen", "~> 3.1"
   gem "memory_profiler"
   gem "rack-mini-profiler", require: false
+  gem "rubocop-graphql", "~> 1.5", require: false
   gem "stackprof"
   gem "web-console", "~> 4.2"
   gem "wkhtmltopdf-binary"

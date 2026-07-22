@@ -1,0 +1,16 @@
+---
+el:
+  layouts:
+    decidim:
+      data_consent:
+        details:
+          items:
+            VISITOR_INFO1_LIVE:
+              description: Υπολογίζει το εύρος ζώνης του χρήστη σε σελίδες με ενσωματωμένα βίντεο YouTube για προσαρμογή της ποιότητας βίντεο.
+              service: YouTube
+            YSC:
+              description: Καταγράφει ένα μοναδικό αναγνωριστικό για τη συλλογή στατιστικών σχετικά με τα βίντεο YouTube που έχει δει ο χρήστης.
+              service: YouTube
+            PREF:
+              description: Αποθηκεύει προτιμήσεις χρήστη, όπως ρυθμίσεις αναπαραγωγής σε ενσωματωμένα βίντεο YouTube.
+              service: YouTube

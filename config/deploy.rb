@@ -14,6 +14,17 @@ set :nvm_map_bins, %w(node npm yarn rake)
 
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "public/uploads", "storage", "node_modules"
 
+namespace :npm do
+  task :ci do
+    on roles(:app) do
+      within release_path do
+        execute :npm, "ci"
+      end
+    end
+  end
+end
+
+before "deploy:assets:precompile", "npm:ci"
 after "deploy:finishing", "restart_sidekiq"
 
 task :restart_sidekiq do
