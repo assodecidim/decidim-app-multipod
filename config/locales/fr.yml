@@ -292,6 +292,18 @@ fr:
             osp_authorization_workflow: Vérifier avec le formulaire de vérification de l'identité
   layouts:
     decidim:
+      data_consent:
+        details:
+          items:
+            VISITOR_INFO1_LIVE:
+              description: Estime la bande passante de l'utilisateur sur les pages intégrant des vidéos YouTube afin d'ajuster la qualité vidéo.
+              service: YouTube
+            YSC:
+              description: Enregistre un identifiant unique pour établir des statistiques sur les vidéos YouTube visionnées par l'utilisateur.
+              service: YouTube
+            PREF:
+              description: Stocke les préférences de l'utilisateur, comme les paramètres de lecture sur les vidéos YouTube intégrées.
+              service: YouTube
       budgets:
         voting_menubar:
           cancel_voting: Sortir de la cabine de vote

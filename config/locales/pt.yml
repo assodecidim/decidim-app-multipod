@@ -1,0 +1,16 @@
+---
+pt:
+  layouts:
+    decidim:
+      data_consent:
+        details:
+          items:
+            VISITOR_INFO1_LIVE:
+              description: Estima a largura de banda do utilizador em páginas com vídeos do YouTube incorporados para ajustar a qualidade do vídeo.
+              service: YouTube
+            YSC:
+              description: Regista um ID único para manter estatísticas dos vídeos do YouTube que o utilizador visualizou.
+              service: YouTube
+            PREF:
+              description: Armazena preferências do utilizador, como definições de reprodução em vídeos do YouTube incorporados.
+              service: YouTube

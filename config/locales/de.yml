@@ -487,6 +487,18 @@ de:
             osp_authorization_workflow: Mit dem Formular zur Identitätsprüfung verifizieren
   layouts:
     decidim:
+      data_consent:
+        details:
+          items:
+            VISITOR_INFO1_LIVE:
+              description: Schätzt die Bandbreite des Benutzers auf Seiten mit eingebetteten YouTube-Videos, um die Videoqualität anzupassen.
+              service: YouTube
+            YSC:
+              description: Registriert eine eindeutige ID, um Statistiken über die vom Benutzer gesehenen YouTube-Videos zu führen.
+              service: YouTube
+            PREF:
+              description: Speichert Benutzereinstellungen wie Wiedergabeeinstellungen für eingebettete YouTube-Videos.
+              service: YouTube
       assemblies:
         index:
           promoted_assemblies: Hervorgehobene Akteure
