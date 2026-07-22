@@ -1044,6 +1044,16 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.1.0)
+    sentry-rails (6.6.2)
+      railties (>= 5.2.0)
+      sentry-ruby (~> 6.6.2)
+    sentry-ruby (6.6.2)
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      logger
+    sentry-sidekiq (6.6.2)
+      sentry-ruby (~> 6.6.2)
+      sidekiq (>= 5.0)
     shakapacker (7.1.0)
       activesupport (>= 5.2)
       rack-proxy (>= 0.6.1)
@@ -1229,6 +1239,9 @@ DEPENDENCIES
   rgeo
   rgeo-activerecord
   rubocop-graphql (~> 1.5)
+  sentry-rails (~> 6.6)
+  sentry-ruby (~> 6.6)
+  sentry-sidekiq (~> 6.6)
   sidekiq (~> 6.0)
   sidekiq-scheduler (~> 5.0)
   spring
