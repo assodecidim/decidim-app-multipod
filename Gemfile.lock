@@ -1008,6 +1008,8 @@ GEM
     rubocop-faker (1.2.0)
       faker (>= 2.12.0)
       rubocop (>= 1.13.0)
+    rubocop-graphql (1.5.4)
+      rubocop (>= 1.50, < 2)
     rubocop-performance (1.23.0)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
@@ -1226,6 +1228,7 @@ DEPENDENCIES
   rexml (>= 3.4.2)
   rgeo
   rgeo-activerecord
+  rubocop-graphql (~> 1.5)
   sidekiq (~> 6.0)
   sidekiq-scheduler (~> 5.0)
   spring
