@@ -281,21 +281,21 @@ en:
             osp_authorization_workflow: Verify with the identity verification form
   layouts:
     decidim:
+      budgets:
+        voting_menubar:
+          cancel_voting: Exit voting booth
       data_consent:
         details:
           items:
+            PREF:
+              description: Stores user preferences like playback settings on embedded YouTube videos.
+              service: YouTube
             VISITOR_INFO1_LIVE:
               description: Estimates user bandwidth on pages with embedded YouTube videos to adjust video quality.
               service: YouTube
             YSC:
               description: Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
               service: YouTube
-            PREF:
-              description: Stores user preferences like playback settings on embedded YouTube videos.
-              service: YouTube
-      budgets:
-        voting_menubar:
-          cancel_voting: Exit voting booth
       footer:
         help: Help
   time:
